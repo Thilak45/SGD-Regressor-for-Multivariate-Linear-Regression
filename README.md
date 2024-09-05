@@ -25,7 +25,7 @@ step 7. Model Evaluation
 step 8. End
 
 ## Program:
-
+```
 /*
 Program to implement the multivariate linear regression model for predicting the price of the house and number
 of occupants in the house with SGD regressor.
@@ -71,7 +71,7 @@ classification_report1=classification_report(y_test,y_pred)
 print(classification_report1)
 lr.predict([[1,80,1,90,1,1,90,1,0,85,1,85]])
 
-
+```
 
 ## Output:
 ## y_pred
